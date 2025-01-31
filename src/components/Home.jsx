@@ -1,11 +1,11 @@
 import React from "react";
-import logoo from "../assets/react.svg";
+import pfp from "../assets/react.svg";
 const Home = () => {
   return (
     <>
       <div className="bg-neutral-950 h-screen space-x-6 pt-12">
         <div className="flex flex-col items-center gap-4">
-          <img src={logoo} alt="img" className="h-48 border shadow-lg rounded-lg p-4 " />
+          <img src={pfp} alt="img" className="h-48 border shadow-lg rounded-lg p-4 " />
           <h3 className="text-xl text-white">Hey 👋🏻 This is ...</h3>
           <h1 className="font-bold text-5xl bg-gradient-to-r from-orange-500 to-orange-800 bg-clip-text text-transparent">
             Rohit Kumar
