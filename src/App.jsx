@@ -6,10 +6,12 @@ import Projects from "./components/Projects";
 import Work from "./components/Work";
 import GetInTouch from "./components/GetInTouch";
 import Home from "./components/Home";
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <>
+    <Header/>
       <Routes>
         <Route index path="/" element={<Home />} />
         <Route  path="/about" element={<About />} />
