@@ -10,7 +10,7 @@ const App = () => {
 
   useEffect(() => {
     const checkScreenWidth = () => {
-      setIsSmallScreen(window.innerWidth <= 350);
+      setIsSmallScreen(window.innerWidth <= 320);
     };
 
     checkScreenWidth(); 
