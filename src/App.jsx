@@ -1,21 +1,22 @@
 import React from "react";
-import { Router, Routes, Route, Navigate } from "react-router";
-import Navbar from "./components/Navbar";
+import { Routes, Route, Navigate } from "react-router";
+import Layout from "./Layout/Layout.jsx";
 import Projects from "./components/Projects";
 import Blogs from "./components/Blogs";
 import Home from "./components/Home";
 
 const App = () => {
   return (
-      <div className="w-full max-w-4xl mx-auto">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/blogs" element={<Blogs />} />
+    <div className="w-full max-w-4xl mx-auto md:max-w-3xl md:bg-blue-300 lg:bg-yellow-400">
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="blogs" element={<Blogs />} />
           <Route path="*" element={<Navigate to="/" />} />
-        </Routes>
-      </div>
+        </Route>
+      </Routes>
+    </div>
   );
 };
 
