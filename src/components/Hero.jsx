@@ -39,11 +39,15 @@ const Hero = () => {
     <div className="px-8">
       <div>
         <h2 className="text-xl font-semibold">About</h2>
-        <p className="my-4 text-lg">
-          I'm a passionate developer, building high-performance products with
-          intuitive user experiences, transforming complex challenges into
-          elegant solutions at lightning speed. I like traveling and exploring
-          different cultures.
+        <p className="my-4 text-lg text-gray-800">
+          Blockchain Developer from India with expertise in creating, deploying,
+          and managing blockchain solutions. Skilled in frontend & backend 
+          development, developer training, and community engagement.
+        </p>
+        <p className="text-lg text-gray-800">
+          Passionate about building high-performance products with seamless user
+          experiences, solving complex problems, and pushing the boundaries of
+          technology. Always learning, always innovating.
         </p>
       </div>
       <div>
