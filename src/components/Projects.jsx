@@ -53,7 +53,6 @@ const Projects = () => {
     <div className="p-8">
       <h2 className="text-xl font-semibold">Projects</h2>
 
-      {/* Landing Pages */}
       <h3 className="text-lg font-bold text-gray-700 mt-6">Landing Pages</h3>
       <div className="flex flex-wrap gap-4 mt-2">
         {landingPages.map((project) => (
@@ -84,7 +83,6 @@ const Projects = () => {
         ))}
       </div>
 
-      {/* Other Projects */}
       <h3 className="text-lg font-bold text-gray-700 mt-6">Other Projects</h3>
       <div className="flex flex-wrap gap-4 mt-2">
         {otherProjects.map((project) => (

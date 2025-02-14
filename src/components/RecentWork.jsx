@@ -2,39 +2,42 @@ import React from "react";
 import { Link } from "react-router";
 
 const recentWorkData = [
-  {
-    id: 1,
-    title: "CoinTok",
-    description:
-      "TikTok-style crypto price tracker powered by CoinGecko API. Smooth infinite scroll UI.",
-    image: "https://cryptologos.cc/logos/bitcoin-btc-logo.svg",
-    link: "https://cointok.vercel.app/",
-  },
-  {
-    id: 2,
-    title: "VirtualR",
-    description:
-      "A futuristic VR landing page showcasing immersive experiences with sleek UI.",
-    image: "https://virtualr-pro.vercel.app/assets/logo-6TE5HpCe.png",
-    link: "https://virtualr-pro.vercel.app/",
-  },
-  {
-    id: 3,
-    title: "NPM Landing Page",
-    description:
-      "Modern NPM-inspired landing page, designed for a clean, developer-friendly experience.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/d/db/Npm-logo.svg",
-    link: "https://npm-og.vercel.app/",
-  },
-  {
-    id: 4,
-    title: "Tea Assam RPC",
-    description:
-      "One-click RPC setup for the Tea Protocol’s Assam Test Network.",
-    image: "https://avatars.githubusercontent.com/u/94703010?s=200&v=4",
-    link: "https://assam-rpc.vercel.app/",
-  },
-];
+    {
+      id: 1,
+      title: "CoinTok",
+      description:
+        "CoinTok is a TikTok-style crypto price tracker with infinite scrolling and real-time market updates, powered by the CoinGecko API for accurate data.",
+      image: "https://cryptologos.cc/logos/bitcoin-btc-logo.svg",
+      link: "https://cointok.vercel.app/",
+    },
+    {
+      id: 2,
+      title: "VirtualR",
+      description:
+        "VirtualR is a next-gen VR landing page with immersive visuals, sleek design, and interactive elements to showcase futuristic virtual reality experiences effortlessly.",
+      image: "https://virtualr-pro.vercel.app/assets/logo-6TE5HpCe.png",
+      link: "https://virtualr-pro.vercel.app/",
+    },
+    {
+      id: 3,
+      title: "NPM Landing Page",
+      description:
+        "This project features a modern NPM-inspired landing page, designed for an intuitive, clean, and developer-friendly experience with optimized UI components.",
+      image: "https://upload.wikimedia.org/wikipedia/commons/d/db/Npm-logo.svg",
+      link: "https://npm-og.vercel.app/",
+    },
+    {
+      id: 4,
+      title: "Tea Assam RPC",
+      description:
+        "Tea Assam RPC provides a seamless one-click RPC setup for developers interacting with the Tea Protocol’s Assam Test Network blockchain infrastructure efficiently.",
+      image: "https://avatars.githubusercontent.com/u/94703010?s=200&v=4",
+      link: "https://assam-rpc.vercel.app/",
+    },
+  ];
+  
+  
+  
 
 const RecentWork = () => {
   return (
@@ -47,7 +50,7 @@ const RecentWork = () => {
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-gray-100 p-4 rounded-xl border border-gray-300 hover:shadow-lg transition w-[48%] min-w-[250px]"
+            className="bg-gray-100 p-4 rounded-xl border border-gray-300 hover:shadow-lg transition md:w-[48%] min-w-[250px]"
           >
             <div className="flex items-center gap-4">
               <img
