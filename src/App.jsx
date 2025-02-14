@@ -7,7 +7,7 @@ import Home from "./components/Home";
 
 const App = () => {
   return (
-    <div className="w-full max-w-4xl mx-auto md:max-w-3xl md:bg-blue-300 lg:bg-yellow-400">
+    <div className="w-full max-w-4xl mx-auto md:max-w-3xl ">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
