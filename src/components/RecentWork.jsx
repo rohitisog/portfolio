@@ -23,7 +23,7 @@ const recentWorkData = [
       title: "NPM Landing Page",
       description:
         "This project features a modern NPM-inspired landing page, designed for an intuitive, clean, and developer-friendly experience with optimized UI components.",
-      image: "https://upload.wikimedia.org/wikipedia/commons/d/db/Npm-logo.svg",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDeUJb1dEdm1RX2ij9CWLdqtCpU-Z-KgWBGQ&s",
       link: "https://npm-og.vercel.app/",
     },
     {
