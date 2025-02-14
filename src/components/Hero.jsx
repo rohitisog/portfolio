@@ -11,22 +11,22 @@ const Hero = () => {
     {
       id: 1,
       icon: x,
-      link: "https://www.x.com/rohitonchain",
+      link: "https://www.x.com/ynotrohit",
     },
     {
       id: 2,
       icon: linkedin,
-      link: "https://www.linkedin.com/in/rohitscript",
+      link: "https://www.linkedin.com/in/ynotrohit",
     },
     {
       id: 3,
       icon: github,
-      link: "https://www.github.com/rohitisog",
+      link: "https://www.github.com/ynotrohit",
     },
     {
       id: 4,
       icon: discord,
-      link: "https://discord.com/users/rohitscript",
+      link: "https://discord.com/users/ynotrohit",
     },
     {
       id: 5,
