@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import RecentWork from "../components/RecentWork";
 import Skills from "./Skills";
 import Experience from "./Experience";
+import AmbassadorExp from "./AmbassadorExp";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <RecentWork />
       <Skills/>
       <Experience/>
+      <AmbassadorExp/>
     </div>
   );
 };
