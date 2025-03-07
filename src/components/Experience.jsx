@@ -7,7 +7,7 @@ const experienceData = [
     id: 1,
     company: "Alephium India",
     role: "DevRel India",
-    date: "June 2024 - Sept 2024",
+    date: "Aug 2024 - Sept 2024",
     description:
       "Driving developer relations, fostering a strong blockchain community, and creating educational content to enhance Alephium’s adoption across India.",
     image: alp,
