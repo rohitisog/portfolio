@@ -4,6 +4,7 @@ import zerodha from "../assets/zerodha.png";
 import npm from "../assets/npm.png";
 import cointok from "../assets/cointok.png";
 import virtual from "../assets/virtual.png";
+import nftg from "../assets/nftg.png";
 
 const landingPages = [
   {
@@ -32,29 +33,44 @@ const landingPages = [
 const otherProjects = [
   {
     id: 4,
+    name: "Play Monadice",
+    live: "https://monadice.vercel.app/",
+    repo: "https://github.com/rohitisog/monadice",
+    image:
+      "https://cdn.prod.website-files.com/667c57e6f9254a4b6d914440/667d7104644c621965495f6e_LogoMark.svg",
+  },
+
+  {
+    id: 5,
     name: "CoinTok ( TikTok-style Crypto App )",
     live: "https://cointok.vercel.app/",
     repo: "https://github.com/rohitisog/cointok",
     image: cointok,
   },
   {
-    id: 5,
+    id: 6,
     name: "Tea Assam RPC One-Click Add",
     live: "https://assam-rpc.vercel.app/",
     repo: "https://github.com/rohitisog/tea-network",
     image: tea,
+  },
+  {
+    id: 7,
+    name: "NFTGalaxy Marketplace",
+    live: "https://nftgalaxy.vercel.app/",
+    repo: "https://github.com/rohitisog/nftgalaxy",
+    image: nftg,
   },
 ];
 
 const Projects = () => {
   return (
     <div className="p-8">
-      <h2 className="text-xl font-semibold">Projects</h2>
-
-      {/* Landing Pages */}
-      <h3 className="text-lg font-bold text-gray-700 mt-6">Landing Pages</h3>
+      <h2 className="text-xl font-semibold mt-6">Projects</h2>
+      {/* Other Projects */}
+      <h3 className="text-lg font-bold text-gray-700 mt-4">Web3 Projects</h3>
       <div className="flex flex-wrap justify-between gap-4 mt-2">
-        {landingPages.map((project) => (
+        {otherProjects.map((project) => (
           <div
             key={project.id}
             className="bg-white p-4 rounded-lg shadow-md transition hover:bg-gray-100 hover:shadow-lg w-full sm:w-[48%] md:w-[48%] lg:w-[48%]"
@@ -87,10 +103,10 @@ const Projects = () => {
         ))}
       </div>
 
-      {/* Other Projects */}
-      <h3 className="text-lg font-bold text-gray-700 mt-6">Other Projects</h3>
+      {/* Landing Pages */}
+      <h3 className="text-lg font-bold text-gray-700 mt-6">Landing Pages</h3>
       <div className="flex flex-wrap justify-between gap-4 mt-2">
-        {otherProjects.map((project) => (
+        {landingPages.map((project) => (
           <div
             key={project.id}
             className="bg-white p-4 rounded-lg shadow-md transition hover:bg-gray-100 hover:shadow-lg w-full sm:w-[48%] md:w-[48%] lg:w-[48%]"

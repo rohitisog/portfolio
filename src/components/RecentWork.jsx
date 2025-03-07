@@ -2,42 +2,42 @@ import React from "react";
 import { Link } from "react-router";
 
 const recentWorkData = [
-    {
-      id: 1,
-      title: "CoinTok",
-      description:
-        "CoinTok is a TikTok-style crypto price tracker with infinite scrolling and real-time market updates, powered by the CoinGecko API for accurate data.",
-      image: "https://cryptologos.cc/logos/bitcoin-btc-logo.svg",
-      link: "https://cointok.vercel.app/",
-    },
-    {
-      id: 2,
-      title: "VirtualR",
-      description:
-        "VirtualR is a next-gen VR landing page with immersive visuals, sleek design, and interactive elements to showcase futuristic virtual reality experiences effortlessly.",
-      image: "https://virtualr-pro.vercel.app/assets/logo-6TE5HpCe.png",
-      link: "https://virtualr-pro.vercel.app/",
-    },
-    {
-      id: 3,
-      title: "NPM Landing Page",
-      description:
-        "This project features a modern NPM-inspired landing page, designed for an intuitive, clean, and developer-friendly experience with optimized UI components.",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDeUJb1dEdm1RX2ij9CWLdqtCpU-Z-KgWBGQ&s",
-      link: "https://npm-og.vercel.app/",
-    },
-    {
-      id: 4,
-      title: "Tea Assam RPC",
-      description:
-        "Tea Assam RPC provides a seamless one-click RPC setup for developers interacting with the Tea Protocol’s Assam Test Network blockchain infrastructure efficiently.",
-      image: "https://avatars.githubusercontent.com/u/94703010?s=200&v=4",
-      link: "https://assam-rpc.vercel.app/",
-    },
-  ];
-  
-  
-  
+  {
+    id: 1,
+    title: "Monadice",
+    description:
+      "Monadice is an on-chain dice game where players roll to earn points and mint NFTs, built on Monad Testnet with real-time leaderboards and unlimited gameplay.",
+    image:
+      "https://cdn.prod.website-files.com/667c57e6f9254a4b6d914440/667d7104644c621965495f6e_LogoMark.svg",
+    link: "https://monadice.vercel.app/",
+  },
+
+  {
+    id: 2,
+    title: "CoinTok",
+    description:
+      "CoinTok is a TikTok-style crypto price tracker with infinite scrolling and real-time market updates, powered by the CoinGecko API for accurate data.",
+    image: "https://cryptologos.cc/logos/bitcoin-btc-logo.svg",
+    link: "https://cointok.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "VirtualR",
+    description:
+      "VirtualR is a next-gen VR landing page with immersive visuals, sleek design, and interactive elements to showcase futuristic virtual reality experiences effortlessly.",
+    image: "https://virtualr-pro.vercel.app/assets/logo-6TE5HpCe.png",
+    link: "https://virtualr-pro.vercel.app/",
+  },
+
+  {
+    id: 4,
+    title: "Tea Assam RPC",
+    description:
+      "Tea Assam RPC provides a seamless one-click RPC setup for developers interacting with the Tea Protocol’s Assam Test Network blockchain infrastructure efficiently.",
+    image: "https://avatars.githubusercontent.com/u/94703010?s=200&v=4",
+    link: "https://assam-rpc.vercel.app/",
+  },
+];
 
 const RecentWork = () => {
   return (
