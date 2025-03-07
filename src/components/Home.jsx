@@ -4,15 +4,17 @@ import RecentWork from "../components/RecentWork";
 import Skills from "./Skills";
 import Experience from "./Experience";
 import AmbassadorExp from "./AmbassadorExp";
+import Education from "./Education";
 
 const Home = () => {
   return (
     <div>
       <Hero />
       <RecentWork />
-      <Skills/>
-      <Experience/>
-      <AmbassadorExp/>
+      <Skills />
+      <Experience />
+      <AmbassadorExp />
+      <Education />
     </div>
   );
 };

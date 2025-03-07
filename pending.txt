@@ -1,6 +1,3 @@
-Top Priority : Fix Dangerous site Error
-Attackers on the site you tried visiting might trick you into installing software or revealing things like your passwords, phone, or credit card numbers. Chrome strongly recommends going back to safety. Learn more about this warning
-
 
 Pending:
 
