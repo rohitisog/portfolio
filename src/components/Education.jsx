@@ -30,28 +30,31 @@ const educationData = [
 const Education = () => {
   return (
     <div className="p-6 md:p-8">
-      <h2 className="text-2xl font-bold text-gray-900 text-center">Education</h2>
+      <h2 className="text-2xl font-bold text-gray-900">Education</h2>
       <div className="mt-6 space-y-6">
         {educationData.map((edu) => (
           <div
             key={edu.id}
-            className="flex flex-row items-center bg-white p-5 rounded-lg shadow-md transition duration-300 hover:bg-gray-50 hover:shadow-lg"
+            className="flex items-center bg-white p-5 rounded-lg shadow-md transition duration-300 hover:bg-gray-50 hover:shadow-lg"
           >
-            {/* Logo always on the left for all screen sizes */}
             <img
               src={edu.collegeLogo}
               alt={`${edu.college} logo`}
-              className="h-16 w-16 rounded-full shadow-sm transition-transform duration-300 hover:scale-110"
+              className="h-14 w-14 rounded-full shadow-sm transition-transform duration-300 hover:scale-110"
             />
-
-            {/* Education details beside the logo */}
-            <div className="w-full pl-4">
-              <h3 className="text-lg font-semibold text-gray-900">{edu.college}</h3>
-              <p className="text-sm text-gray-600">{edu.stream}</p>
-              <p className="text-sm text-gray-500 mt-1">{edu.date}</p>
-              <p className="text-sm text-gray-700 mt-1">
-                <span className="font-semibold">Percentage:</span> {edu.percentage}
-              </p>
+            <div className="w-full px-4">
+              <div className="flex justify-between items-start">
+                <div>
+                  <h3 className="text-lg font-semibold text-gray-900">{edu.college}</h3>
+                  <p className="text-sm text-gray-600">{edu.stream}</p>
+                </div>
+                <div className="text-right">
+                  <p className="text-sm text-gray-500">{edu.date}</p>
+                  <p className="text-sm mt-1 text-gray-700">
+                    <span className="font-semibold">Percentage:</span> {edu.percentage}
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         ))}
