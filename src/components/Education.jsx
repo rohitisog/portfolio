@@ -35,17 +35,17 @@ const Education = () => {
         {educationData.map((edu) => (
           <div
             key={edu.id}
-            className="flex flex-col md:flex-row items-center bg-white p-5 rounded-lg shadow-md transition duration-300 hover:bg-gray-50 hover:shadow-lg"
+            className="flex flex-row items-center bg-white p-5 rounded-lg shadow-md transition duration-300 hover:bg-gray-50 hover:shadow-lg"
           >
-            {/* Logo on top for small screens, left for larger screens */}
+            {/* Logo always on the left for all screen sizes */}
             <img
               src={edu.collegeLogo}
               alt={`${edu.college} logo`}
-              className="h-16 w-16 rounded-full shadow-sm transition-transform duration-300 hover:scale-110 mb-4 md:mb-0"
+              className="h-16 w-16 rounded-full shadow-sm transition-transform duration-300 hover:scale-110"
             />
 
-            {/* Education details stacked below logo on small screens */}
-            <div className="w-full text-center md:text-left md:pl-4">
+            {/* Education details beside the logo */}
+            <div className="w-full pl-4">
               <h3 className="text-lg font-semibold text-gray-900">{edu.college}</h3>
               <p className="text-sm text-gray-600">{edu.stream}</p>
               <p className="text-sm text-gray-500 mt-1">{edu.date}</p>
