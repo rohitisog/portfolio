@@ -34,28 +34,51 @@ const experienceData = [
 
 const Experience = () => {
   return (
-    <div className="p-8">
+    <div className="p-6">
       <h2 className="text-xl font-semibold">Experience</h2>
       <div className="mt-4 space-y-4">
         {experienceData.map((exp) => (
           <div
             key={exp.id}
-            className="flex items-center bg-white p-4 rounded-lg shadow-md transition duration-300 hover:bg-gray-100 hover:shadow-lg"
+            className="bg-white p-4 rounded-lg shadow-md transition duration-300 hover:bg-gray-100 hover:shadow-lg"
           >
-            <img
-              src={exp.image}
-              alt={exp.company}
-              className="h-12 w-12 rounded-full shadow-sm transition-transform duration-300 hover:scale-105"
-            />
-            <div className="w-full px-4">
-              <div className="flex justify-between items-center">
-                <div>
+            {/* MOBILE LAYOUT (sm and below) */}
+            <div className="flex flex-col sm:hidden">
+              {/* Logo & Company Info */}
+              <div className="flex items-center">
+                <img
+                  src={exp.image}
+                  alt={exp.company}
+                  className="h-12 w-12 rounded-full shadow-sm"
+                />
+                <div className="ml-4">
                   <h3 className="text-lg font-semibold">{exp.company}</h3>
                   <p className="text-sm text-gray-600">{exp.role}</p>
+                  <p className="text-sm text-gray-500">{exp.date}</p>
                 </div>
-                <p className="text-sm text-gray-500">{exp.date}</p>
               </div>
-              <p className="text-sm mt-2 text-gray-700">{exp.description}</p>
+
+              {/* Description - Full Width */}
+              <p className="text-sm text-gray-700 mt-2">{exp.description}</p>
+            </div>
+
+            {/* MD & LG LAYOUT (Unchanged) */}
+            <div className="hidden sm:flex items-center">
+              <img
+                src={exp.image}
+                alt={exp.company}
+                className="h-12 w-12 rounded-full shadow-sm transition-transform duration-300 hover:scale-105"
+              />
+              <div className="w-full px-4">
+                <div className="flex justify-between items-center">
+                  <div>
+                    <h3 className="text-lg font-semibold">{exp.company}</h3>
+                    <p className="text-sm text-gray-600">{exp.role}</p>
+                  </div>
+                  <p className="text-sm text-gray-500">{exp.date}</p>
+                </div>
+                <p className="text-sm mt-2 text-gray-700">{exp.description}</p>
+              </div>
             </div>
           </div>
         ))}
