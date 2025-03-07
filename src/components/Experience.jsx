@@ -34,28 +34,27 @@ const experienceData = [
 
 const Experience = () => {
   return (
-    <div className="p-8">
-      <h2 className="text-xl font-semibold">Experience</h2>
-      <div className="mt-4 space-y-4">
+    <div className="p-6 md:p-8">
+      <h2 className="text-2xl font-bold text-gray-900 text-center">Experience</h2>
+      <div className="mt-6 space-y-6">
         {experienceData.map((exp) => (
           <div
             key={exp.id}
-            className="flex items-center bg-white p-4 rounded-lg shadow-md transition duration-300 hover:bg-gray-100 hover:shadow-lg"
+            className="flex flex-row items-center bg-white p-5 rounded-lg shadow-md transition duration-300 hover:bg-gray-50 hover:shadow-lg"
           >
+            {/* Logo always on the left */}
             <img
               src={exp.image}
-              alt={exp.company}
-              className="h-12 w-12 rounded-full shadow-sm transition-transform duration-300 hover:scale-105"
+              alt={`${exp.company} logo`}
+              className="h-16 w-16 rounded-full shadow-sm transition-transform duration-300 hover:scale-110"
             />
-            <div className="w-full px-4">
-              <div className="flex justify-between items-center">
-                <div>
-                  <h3 className="text-lg font-semibold">{exp.company}</h3>
-                  <p className="text-sm text-gray-600">{exp.role}</p>
-                </div>
-                <p className="text-sm text-gray-500">{exp.date}</p>
-              </div>
-              <p className="text-sm mt-2 text-gray-700">{exp.description}</p>
+
+            {/* Experience details beside the logo */}
+            <div className="w-full pl-4">
+              <h3 className="text-lg font-semibold text-gray-900">{exp.company}</h3>
+              <p className="text-sm text-gray-600">{exp.role}</p>
+              <p className="text-sm text-gray-500 mt-1">{exp.date}</p>
+              <p className="text-sm text-gray-700 mt-2">{exp.description}</p>
             </div>
           </div>
         ))}
