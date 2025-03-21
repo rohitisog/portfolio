@@ -48,7 +48,7 @@ This portfolio is deployed on Vercel. To deploy your own:
 
 ## 📬 Contact
 
-- **Twitter**: [@rohitisog](https://x.com/rohitisog)
+- **Twitter**: [@rohitisog](https://x.com/kr_rohitsah)
 - **GitHub**: [@rohitisog](https://github.com/rohitisog)
 - **LinkedIn**: [@rohitisog](https://linkedin.com/in/rohitisog)
 - **Email**: [rohitisog@gmail.com](mailto\:rohitisog@gmail.com)
