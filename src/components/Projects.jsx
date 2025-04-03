@@ -33,11 +33,11 @@ const landingPages = [
 const otherProjects = [
   {
     id: 4,
-    name: "Play Monadice",
-    live: "https://monadice.vercel.app/",
-    repo: "https://github.com/rohitisog/monadice",
+    name: "Play teadice",
+    live: "https://teadice.vercel.app/",
+    repo: "https://github.com/rohitisog/teadice",
     image:
-      "https://cdn.prod.website-files.com/667c57e6f9254a4b6d914440/667d7104644c621965495f6e_LogoMark.svg",
+      "https://pbs.twimg.com/profile_images/1708838507957882880/SsQYN3T6_400x400.jpg",
   },
 
   {
@@ -60,6 +60,14 @@ const otherProjects = [
     live: "https://nftgalaxy.vercel.app/",
     repo: "https://github.com/rohitisog/nftgalaxy",
     image: nftg,
+  },
+  {
+    id: 4,
+    name: "Play Monadice",
+    live: "https://monadice.vercel.app/",
+    repo: "https://github.com/rohitisog/monadice",
+    image:
+      "https://cdn.prod.website-files.com/667c57e6f9254a4b6d914440/667d7104644c621965495f6e_LogoMark.svg",
   },
 ];
 

@@ -4,12 +4,12 @@ import { Link } from "react-router";
 const recentWorkData = [
   {
     id: 1,
-    title: "Monadice",
+    title: "Teadice",
     description:
-      "Monadice is an on-chain dice game where players roll to earn points and mint NFTs, built on Monad Testnet with real-time leaderboards and unlimited gameplay.",
+      "TeaDice is an on-chain dice game where players roll to earn points and mint NFTs, built on Monad Testnet with real-time leaderboards and unlimited gameplay.",
     image:
-      "https://cdn.prod.website-files.com/667c57e6f9254a4b6d914440/667d7104644c621965495f6e_LogoMark.svg",
-    link: "https://monadice.vercel.app/",
+      "https://pbs.twimg.com/profile_images/1708838507957882880/SsQYN3T6_400x400.jpg",
+    link: "https://teadice.vercel.app/",
   },
 
   {
