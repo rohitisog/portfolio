@@ -11,7 +11,7 @@ const Hero = () => {
     {
       id: 1,
       icon: x,
-      link: "https://www.x.com/rohitisog",
+      link: "https://www.x.com/kr_rohitsah",
     },
     {
       id: 2,
